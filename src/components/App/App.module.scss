@@ -1,0 +1,24 @@
+.app {
+  min-height: 100vh;
+}
+
+:global(.MuiDataGrid-iconSeparator) {
+  display: none !important;
+}
+
+:global(.MuiDataGrid-root) {
+  background-color: #fff;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+}
+
+.map-container-wrapper {
+  flex-grow: 1;
+}
+
+.map-container {
+  height: 100%;
+}

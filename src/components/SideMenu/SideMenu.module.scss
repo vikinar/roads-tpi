@@ -1,0 +1,19 @@
+.container {
+  flex-grow: 1;
+  border-right: 1px solid #ededed;
+  padding-right: 10px;
+}
+
+.list {
+  margin-top: 20px !important;
+}
+
+.list-container {
+  padding-left: 10px;
+  max-height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+:global{.MuiTab-root{
+  min-width: 120px !important;
+}}

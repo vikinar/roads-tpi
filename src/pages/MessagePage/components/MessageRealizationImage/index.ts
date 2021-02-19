@@ -1,0 +1,1 @@
+export {MessageRealizationImage} from './MessageRealizationImage';

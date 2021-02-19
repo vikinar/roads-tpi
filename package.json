@@ -1,0 +1,83 @@
+{
+  "name": "tpi-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-core": "^2.7.4",
+    "@devexpress/dx-react-grid": "^2.7.4",
+    "@devexpress/dx-react-grid-material-ui": "^2.7.4",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/data-grid": "^4.0.0-alpha.13",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/classnames": "^2.2.11",
+    "@types/jest": "^26.0.15",
+    "@types/leaflet": "^1.5.19",
+    "@types/lodash": "^4.14.166",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-color": "^3.0.4",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.14",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/react-table": "^7.0.26",
+    "@types/reactcss": "^1.2.3",
+    "@types/redux": "^3.6.0",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "formik": "^2.2.6",
+    "leaflet": "^1.7.1",
+    "lodash": "^4.17.20",
+    "material-table": "^1.69.2",
+    "moment": "^2.29.1",
+    "node-sass": "4.14.1",
+    "react": "^17.0.1",
+    "react-color": "^2.19.3",
+    "react-data-grid": "^7.0.0-canary.33",
+    "react-dom": "^17.0.1",
+    "react-leaflet": "^3.0.5",
+    "react-redux": "^7.2.2",
+    "react-resize-panel": "^0.3.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-table": "^7.6.2",
+    "react-table-v6": "^6.8.6",
+    "reactcss": "^1.2.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "socket.io": "^3.0.5",
+    "socket.io-client": "^3.0.5",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.32.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

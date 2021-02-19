@@ -1,0 +1,1 @@
+export { mapDeviceReducer } from './mapDeviceSlice';

@@ -1,0 +1,1 @@
+export {messageConfigurationReducer} from './messageConfigurationsSlice';

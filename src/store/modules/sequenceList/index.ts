@@ -1,0 +1,2 @@
+export { secuencesListReducer } from './sequenceListSlice';
+

@@ -1,0 +1,63 @@
+.wrapper {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #ededed;
+  padding-bottom: 20px;
+}
+
+.container {
+  padding: 30px 50px;
+}
+
+.header {
+  margin-bottom: 40px;
+  padding-right: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-items {
+  display: flex;
+}
+
+.item {
+  margin-right: 15px;
+  font-weight: bold;
+  //   min-height: 48px;
+  //   display: flex;
+  //   align-items: flex-end;
+}
+
+.header-addition {
+  display: flex;
+}
+
+.addition-item {
+  margin-right: 125px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  margin: 0 20px 70px 0;
+  //   margin-right: 20px;
+}
+
+.range {
+  width: 300px;
+  border: none;
+
+  :global(.MuiInput-underline) {
+    &::after {
+      border: none;
+    }
+  }
+
+  & > div::before {
+    display: none !important;
+  }
+}

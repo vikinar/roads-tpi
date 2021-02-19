@@ -1,0 +1,1 @@
+export { LineOptions } from './LineOptions';

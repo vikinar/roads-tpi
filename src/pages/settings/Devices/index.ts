@@ -1,0 +1,1 @@
+import {DevicesPage} from './DevicesPage';

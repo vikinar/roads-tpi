@@ -1,0 +1,1 @@
+export {SideBarMenuParameters} from './SideBarMenuParameters';

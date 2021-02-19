@@ -1,0 +1,14 @@
+.range {
+  width: 300px;
+  border: none;
+
+  :global(.MuiInput-underline) {
+    &::after {
+      border: none;
+    }
+  }
+
+  & > div::before {
+    display: none !important;
+  }
+}

@@ -1,0 +1,1 @@
+export {MessageRealizationTable} from './MessageRealizationTable';

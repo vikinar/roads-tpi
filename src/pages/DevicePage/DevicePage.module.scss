@@ -1,0 +1,176 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #ededed;
+  padding-bottom: 30px;
+}
+
+.header {
+  padding: 40px 0 20px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+
+  h2 {
+    margin: 0;
+  }
+
+  &__item {
+    span {
+      color: blue;
+      cursor: pointer;
+    }
+  }
+}
+
+.table {
+  background-color: #fff;
+  margin-bottom: 40px;
+  height: 100%;
+  padding-bottom: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.table-title {
+  font-weight: bold;
+}
+
+.table-grid {
+  background-color: #fff;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 25px;
+}
+
+.table-header {
+  font-weight: bold;
+}
+
+.block {
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-bottom: 40px;
+  min-height: 380px;
+}
+
+.block-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  font-size: 16px;
+  margin: 15px 0;
+  color: gray;
+}
+
+.block-content {
+  //   display: flex;
+  //   justify-content: space-around;
+  //   align-items: center;
+  //   background-color: #000;
+  //     width: 600px;
+  //   padding: 20px 0;
+
+  &__item {
+    color: orange;
+    div {
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 20;
+    }
+  }
+}
+
+.range {
+  width: 300px;
+  border: none;
+
+  :global(.MuiInput-underline) {
+    &::after {
+      border: none;
+    }
+  }
+
+  & > div::before {
+    display: none !important;
+  }
+}
+
+.table-settings {
+  background-color: #fff;
+  padding: 15px 0;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.settings-grid {
+  height: auto;
+}
+
+.table-header {
+  :global(.MuiDataGrid-colCellTitle) {
+    font-weight: bold !important;
+  }
+}
+
+.settings-btn {
+  margin: 15px 0;
+  padding: 0 25px;
+}
+
+.active{
+  color: green;
+  font-weight: 600;
+  transition: .25s linear;
+}
+
+.row{
+  cursor: pointer;
+  transition: .25s linear;
+  &:hover{
+    color: green;
+    transition: .25s linear;
+  }
+}
+
+.dialog{
+  width: 400px !important;
+}
+
+.input{
+  width: 100%;
+  &::placeholder{
+    color: red;
+  }
+  .label {
+    margin-top: -1.5px;
+    margin-left: 15px;
+  }
+}
+
+.description-title {
+  font-weight: bold;
+  margin: 15px 0;
+  &_post{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}

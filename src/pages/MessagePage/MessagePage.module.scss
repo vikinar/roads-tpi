@@ -1,0 +1,87 @@
+.wrapper {
+  background-color: #ededed;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.top {
+  display: flex;
+  margin-bottom: 20px;
+
+  & > div:first-child {
+    margin-right: 40px;
+  }
+}
+
+.container {
+  padding: 40px 30px;
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.table {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header {
+  :global(.MuiDataGrid-colCellTitle) {
+    font-weight: bold !important;
+  }
+}
+
+.anyone {
+  height: 259px !important;
+}
+
+.table-grid {
+  height: 270px;
+}
+
+.table-settings {
+  height: 175px;
+}
+
+.change-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.change-block {
+  width: 500px;
+}
+
+.table-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.text {
+  border: 1px solid;
+  padding: 5px;
+  background: #fff;
+}
+
+.add-icon {
+  margin-top: 20px;
+}

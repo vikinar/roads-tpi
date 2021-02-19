@@ -1,0 +1,1 @@
+import {PostsPage} from './PostsPage';

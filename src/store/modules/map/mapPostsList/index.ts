@@ -1,0 +1,1 @@
+export { mapPostsListReducer } from './mapPostsListSlice';

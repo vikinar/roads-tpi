@@ -1,0 +1,1 @@
+export { mapPostReducer } from './mapPostSlice';

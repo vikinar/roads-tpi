@@ -1,0 +1,44 @@
+.messages {
+  background-color: #ededed;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 30px 50px;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-root {
+  height: 474px !important;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.description {
+  margin-bottom: 30px;
+}
+
+.table {
+  margin-bottom: 20px;
+  &_padding{
+    padding-bottom: 40px;
+  }
+  border-bottom: none;
+}
+
+.table-header {
+  :global(.MuiDataGrid-colCellTitle) {
+    font-weight: bold !important;
+  }
+}
+
+

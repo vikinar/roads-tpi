@@ -1,0 +1,133 @@
+.wrapper {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #ededed;
+  padding-bottom: 20px;
+}
+
+.container {
+  padding: 40px 0;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.block {
+  padding: 35px 25px 10px 25px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+}
+
+.block-content {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: flex-end;
+  &-single{
+    margin-bottom: 10px;
+  }
+}
+
+.block-content:last-child {
+  margin-bottom: 40px;
+}
+
+.content-item {
+  display: flex;
+}
+
+.input {
+  width: 100%;
+}
+
+.field {
+  margin-right: 45px;
+  width: 90%;
+  margin-bottom: 10px;
+
+  &_description {
+    margin-right: 0;
+    width: 96%;
+  }
+}
+
+.conditions {
+  width: 96%;
+}
+
+.table-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.table-header {
+  :global(.MuiDataGrid-colCellTitle) {
+    font-weight: bold !important;
+  }
+}
+
+.block-table {
+  margin-top: 40px;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.table {
+  width: 100%;
+  height: auto;
+  cursor: text !important;
+}
+
+.block-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-left: 15px !important;
+}
+
+.chip {
+  width: 150px;
+  margin: 0 5px;
+}
+
+.dialog{
+  width: 400px !important;
+}
+
+.input{
+  width: 100%;
+  &::placeholder{
+    color: red;
+  }
+  .label {
+    margin-top: -1.5px;
+    margin-left: 15px;
+  }
+}
+
+.description-title {
+  font-weight: bold;
+  margin: 15px 0;
+  &_post{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}
+
+.btn_block{
+  margin: 15px;
+}
+
+:global(.MuiTableRow-root) {
+  cursor: auto !important;
+}

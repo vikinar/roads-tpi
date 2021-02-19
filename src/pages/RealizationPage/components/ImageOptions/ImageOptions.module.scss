@@ -1,0 +1,41 @@
+.title {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 100%;
+
+  &-container {
+    width: 250px;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.fields {
+  margin-top: 10px;
+}
+
+.input {
+  margin-right: 30px !important;
+  margin-bottom: 25px !important;
+}
+
+.range {
+  width: 100%;
+  margin-top: 40px !important;
+}

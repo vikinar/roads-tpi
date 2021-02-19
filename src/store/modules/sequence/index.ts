@@ -1,0 +1,2 @@
+export { secuencesReducer } from './sequenceSlice';
+

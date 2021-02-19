@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: #ededed;
+  min-height: 100vh;
+
+  &_inner {
+    margin: 0 50px 15px;
+    display: flex;
+  }
+  &__content {
+    padding-left: 35px;
+  }
+}
+
+.parameters {
+  margin-top: 10vh;
+
+  &__name {
+    font-weight: 500;
+  }
+}
+
+.list {
+  &_title {
+    margin-bottom: 15px;
+  }
+
+  &_block {
+    margin-top: 30px;
+  }
+}

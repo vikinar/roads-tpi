@@ -1,0 +1,26 @@
+.container {
+  border: 1px solid #eded;
+  border-radius: 5px;
+  max-height: 100%;
+  overflow: auto;
+  background-color: #fff;
+
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 10px 25px;
+
+  // :global(){}
+
+  :global(.MuiTableCell-head) {
+    font-weight: 600;
+  }
+
+  :global(.MuiTableCell-root) {
+    padding: 10px 16px;
+  }
+
+  :global(.MuiIconButton-root) {
+    padding: 0;
+  }
+
+}

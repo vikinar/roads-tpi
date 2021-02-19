@@ -1,0 +1,101 @@
+.wrapper {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #ededed;
+  padding-bottom: 20px;
+}
+
+.container {
+  padding-top: 40px;
+}
+
+.menu-item {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.options {
+  height: 400px;
+  flex-grow: 1;
+  margin-left: 50px;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+
+.menu {
+  height: 400px;
+  width: 300px;
+}
+
+.list {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.demo {
+  width: 96%;
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-title {
+    font-weight: 600;
+    font-size: 22px;
+  }
+}
+
+.sub-title {
+  font-size: 16px;
+  margin: 45px 0 15px 0;
+  color: gray;
+}
+
+.range {
+  width: 300px;
+  border: none;
+
+  :global(.MuiInput-underline) {
+    &::after {
+      border: none;
+    }
+  }
+
+  &>div::before {
+    display: none !important;
+  }
+}
+
+.block-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  width: 600px;
+  padding: 20px 0;
+
+  &__item {
+    color: orange;
+
+    div {
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 20;
+    }
+  }
+}
+
+.item {
+  margin-top: 5px;
+}

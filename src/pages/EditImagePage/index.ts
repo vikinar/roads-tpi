@@ -1,0 +1,1 @@
+export { EditImagePage } from './EditImagePage';

@@ -1,0 +1,107 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width:480px;
+  margin: 0 50px;
+  &-wrapper{
+    display: flex;
+    background-color: #ededed;
+    border-left: 1px solid lightgrey;
+    z-index: 2;
+  }
+
+  &_btn{
+    margin: 0 0 0 20px !important;
+  }
+
+  &_btns {
+    margin-top: 20px;
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+
+  hr{
+    height: 1px;
+    border: none;
+    background: grey;
+  }
+
+  .description{
+    margin: 40px 0;
+  }
+
+  &-inner{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid grey;
+  }
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-color: #ededed;
+  &_inner{
+    display: flex;
+    min-height: 100vh;
+  }
+}
+
+.description-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.list{
+  flex-grow: 1;
+  min-width: 240px;
+  max-width: 500px;
+  overflow: auto;
+  height: 100%;
+  min-height: calc(100% - 48px);
+  &-title{
+    margin: 35px 50px 15px;
+  }
+  &_btn{
+    margin-left: 50px !important;
+    margin-top: 10px !important;
+  }
+}
+
+.menu-item{
+  width: 100%;
+  padding-left: 40px;
+  align-self: center;
+}
+
+:global(.MuiListItem-root){
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+.form-line {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+
+  .description-title{
+    margin-top: 17px;
+  }
+
+  .input{
+    width: 340px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    &::placeholder{
+      color: red;
+    }
+    .label {
+      margin-top: -1.5px;
+      margin-left: 15px;
+    }
+  }
+}
+
+
+
+

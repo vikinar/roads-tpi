@@ -1,0 +1,36 @@
+.container {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+
+  color: #fff;
+
+  &_big {
+    font-size: 25px;
+  }
+}
+
+.icon {
+  color: #fff;
+
+  &_big {
+    &.icon_burger {
+      font-size: 44px !important;
+    }
+  }
+}
+
+.button-icon {
+  padding: 2px 12px !important;
+}

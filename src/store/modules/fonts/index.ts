@@ -1,0 +1,1 @@
+export { fontsReducer } from './fontsSlice';
